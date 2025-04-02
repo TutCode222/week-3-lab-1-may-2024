@@ -31,7 +31,6 @@
         background-color: rgb(96, 108, 56);
       }
       
-      /* TODO: add styles for footer  */
 
       .paragraph-1 {
         background-color: rgb(221, 161, 94);
@@ -41,13 +40,25 @@
         -webkit-text-fill-color: rgb(40, 54, 24);
       }
 
-      h2 {
+      .h2s {
         text-align: justify;
       }
 
       table {
-        border-color: rgb(96, 108, 56);
-      }
+  font-family: arial, sans-serif;
+  border-color: rgb(96, 108, 56);
+  width: 50%;
+}
+
+td, th {
+  border: 2px solid rgb(96, 108, 56);;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(247, 221, 191);
+}
 
     </style>
     <link rel="stylesheet" href="style.css">
@@ -90,7 +101,7 @@
         erat nam at lectus urna duis.
       </p>
     <br>
-    <h2 style="-webkit-text-fill-color: rgb(188, 108, 37);">Toy Options</h2>
+    <h2 class="h2s" style="-webkit-text-fill-color: rgb(188, 108, 37);">Toy Options</h2>
     <ul>
       <li>Hot Wheels Car</li>
       <li>Cabbage Patch Doll</li>
